@@ -1,0 +1,66 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.container, footer {
+  background-color: #1e1e1e;
+}
+
+h1, h2, label, p {
+  color: #ffffff;
+}
+
+.navbar, footer {
+  background-color: #282828;
+}
+
+.navbar a, .footer-content a {
+  color: #cfcfcf;
+}
+
+.navbar a:hover, .footer-content a:hover {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.banner-2::before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-text, .banner-text-2 {
+  color: #ffffff;
+}
+
+.submit-button, .reset-button {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.submit-button:hover, .reset-button:hover {
+  background-color: #555555;
+}
+
+.skip-link:focus {
+  background-color: #333;
+  color: #fff;
+}
+
+#darkModeToggle {
+  background-color: #5d5b5b;
+  color: #dddbdb;
+  position: fixed;
+  border: none;
+  bottom: 10px; /* Position at the bottom of the viewport */
+  right: 10px; /* Position at the right of the viewport */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1001; /* Ensure it stays on top of other content */
+  transition: background-color 0.15s, color 0.15s;
+}
+
+#darkModeToggle:hover {
+  background-color: #7a7878; /* Slightly darker on hover for better UI feedback */
+}

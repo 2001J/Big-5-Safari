@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Big 5 - Contact Us</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="../CSS_files/contact.css">
+</head>
+
+<body>
+    <!-- Skip Links -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#footer" class="skip-link">Skip to footer</a>
+    <button id="highContrastToggle">Toggle High Contrast</button>
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+
+
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <header>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="../html_files/index.html">Home</a></li>
+                    <li><a href="../html_files/animals.html">Animals</a></li>
+                    <li><a href="../html_files/safari.html">Safari</a></li>
+                    <li><a href="../html_files/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="banner-2">
+        <img class="banner-2-img" src="../images/banners/banner-4.jpeg"
+            alt="Panoramic image showcasing a safari jeep encountering wildlife">
+        <div class="banner-text-wrapper">
+            <h1 class="banner-text">THE BIG FIVE AFRICA</h1>
+            <p class="banner-text-2">
+                <i>
+                    The journey of exploration awaits you.....
+                </i>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="container" id="main-content">
+
+        <h1 class="contact-header">Lets Get In Touch:</h1>
+
+        <form action="mailto:jethkoyi07@gmail.com" method="post" enctype="text/plain">
+            <label for="name"><i class="fas fa-user"></i> Name :</label>
+            <input class="name-bar" id="name" type="text" placeholder="Enter your name">
+
+            <br><br>
+
+            <label for="email"><i class="fas fa-envelope"></i> Email :</label>
+            <input class="email-bar" id="email" type="text" placeholder="Enter your email">
+
+            <br><br>
+
+            <label for="article-pov-yes">Do you find this article helpful?</label> <br>
+            <input type="radio" name="feedback" value="yes" id="article-pov-yes"> Yes
+            <input type="radio" name="feedback" value="no" id="article-pov-no"> No
+
+            <br><br>
+
+            <p>How would you rate this article (1-5)?</p>
+            <select class="rating" name="rating" id="rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <br><br>
+
+            <p>Which animal(s) among the Big 5 is/are your favorite(s)?</p>
+            <input type="checkbox" name="favorite" value="lion"> African Lion
+            <br><br>
+            <input type="checkbox" name="favorite" value="leopard"> Leopard
+            <br><br>
+            <input type="checkbox" name="favorite" value="elephant"> African Elephant
+            <br><br>
+            <input type="checkbox" name="favorite" value="rhino"> Black Rhino
+            <br><br>
+            <input type="checkbox" name="favorite" value="buffalo"> African Buffalo
+
+            <br><br>
+
+            <label for="comment">Leave us a comment / Write us a Message below:</label>
+            <textarea name="comment-area" id="comment" cols="50" rows="10"></textarea>
+
+            <br><br>
+
+            <input type="reset" value="Reset" class="reset-button">
+            <button class="submit-button">Submit</button>
+        </form>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="contact-details">
+                <h2><i class="fa fa-address-card"></i> Contact Us</h2>
+                <address>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Address: 123 Safari Drive,
+                    Tanzania, Africa
+                </address>
+                <p><i class="fas fa-envelope"></i> Email: vitotrips@gmail.com</p>
+                <p><i class="fas fa-phone"></i> Phone: (+255) - 74 - 456 - 7890</p>
+            </div>
+
+            <div class="social-media-links">
+                <h2><i class="fas fa-users"></i> Follow Us</h2>
+                <a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.threads.net/" target="_blank"><i class="fas fa-comments"></i> Threads</a>
+            </div>
+
+            <div class="quick-links">
+                <h2><i class="fas fa-link"></i> Quick Links</h2>
+                <a href="../html_files/index.html">Home</a>
+                <a href="../html_files/animals.html">Animals</a>
+                <a href="../html_files/safari.html">Safari</a>
+                <a href="../html_files/contact.html">Contact Us</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="copyright">
+            <p>&copy; 2024 VitoTrips. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="../javascript_files/contact-high-contrast.js"></script>
+
+    <script src="../javascript_files/dark_modejs/contact-dark-mode.js"></script>
+
+    <script src="../javascript_files/current-page.js"></script>
+    <script src="../javascript_files/hamburger-nav.js"></script>
+
+</body>
+
+</html>
