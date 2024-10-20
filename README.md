@@ -3,7 +3,7 @@ Big 5 Safari Website
 
 The Big 5 Safari Website is a visually immersive site that highlights Africa's "Big 5" animals: the lion, leopard, elephant, rhinoceros, and buffalo. It offers information about these magnificent creatures, showcases a virtual safari experience, and provides educational content about African wildlife.
 
-You can visit the live website here: [Big 5 Safari](#).
+You can visit the live website here: [Big 5 Safari](https://big5byjoe.vercel.app/html_files/index.html).
 
 ## Features
 
