@@ -44,7 +44,7 @@ You can visit the live website here: [Big 5 Safari](https://big5byjoe.vercel.app
 Clone this repository to your local machine:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/2001J/big5.git
 ```
 
 ### Open the Website Locally
@@ -62,7 +62,7 @@ You can modify the HTML, CSS, or JavaScript files to adjust the content, styles,
 
 ## Live Website
 
-Check out the live version of the site at [Big 5 Safari](#).
+Check out the live version of the site at [Big 5 Safari](https://big5byjoe.vercel.app/html_files/index.html).
 
 ## Contributing
 
